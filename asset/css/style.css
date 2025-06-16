@@ -33,7 +33,7 @@ header {
   left: 0;
   right: 0;
   background-color: #ff6900;
-  z-index: 999;
+  z-index: 2;
 }
 
 header .container-big {
@@ -77,4 +77,73 @@ header .container-big li>a {
 
 header .bar {
   padding: 0 25px;
+}
+
+/* Main */
+
+main{
+  padding: 150px 0 0 0;
+}
+
+main .content-shop{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .content-shop .card{
+  width: calc(100%/3 -10px);
+  margin: 20px 10px;
+  position: relative;
+}
+
+.card-content-img>img{
+  width: 100%;
+}
+
+main h2{
+  font-size: 20px;
+}
+
+main .card-info .new-price{
+  display: inline-block;
+  margin-right: 5px;
+  color: red;
+  font-weight: bold;
+}
+
+main .old-price{
+  text-decoration: line-through;
+}
+
+main .card .card-content-img {
+position: relative;
+}
+
+.content-shop .inside-box{
+  position: absolute;
+  padding: 6px 8px;
+  color: #fff;
+  bottom: 50px;
+  font-weight: bold;
+  font-size: 14px;
+  z-index: 1;
+}
+
+.content-shop .inside-box-discount{
+  background-color: red;
+}
+
+.content-shop .inside-box-sustain{
+  left: 55px;
+  background-color: green;
+}
+
+.content-shop .add-favorities{
+  top: 20px;
+  right: 0;
+  position: absolute;
+  padding: 10px;
+  background-color: #fff;
+  z-index: 1;
 }

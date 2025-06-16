@@ -175,3 +175,27 @@ position: relative;
 .add-favorities a:hover {
   color: red;
 }
+
+footer .container-big {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+footer {
+  margin-top: 50px;
+  color: white;
+  padding: 30px 0px;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid white;
+}
+
+footer .footer-list ul {
+  display: flex;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+footer .footer-list a {
+  font-size: 25px;
+}

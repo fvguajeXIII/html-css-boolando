@@ -147,3 +147,31 @@ position: relative;
   background-color: #fff;
   z-index: 1;
 }
+
+.content-shop .add-favorities a {
+  color: black;
+  font-size: 25px;
+}
+
+.first-img {
+  z-index: 50;
+}
+
+.card-content-img {
+  position: relative;
+  width: 380px;
+}
+
+.card-content-img .first-img {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}
+
+.first-img:hover {
+  opacity: 0;
+}
+
+.add-favorities a:hover {
+  color: red;
+}
